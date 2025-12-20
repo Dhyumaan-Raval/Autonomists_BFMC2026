@@ -40,17 +40,17 @@ pip install prettytable intelhex
 
 # 🏗️ Building and Flashing
 
-This section details the process of transforming source code into a running application on the vehicle's hardware.
+This module focuses on the transition from source code to hardware execution. It is a critical part of the **Embedded Platform** development workflow for the BFMC competition.
 
 ---
 
 ## 🧠 The Engineering Logic
-Our build system is designed to be **cross-platform**. We use `mbed-tools` to compile high-level C++ code into a machine-readable `.bin` (binary) file specifically optimized for the **ARM Cortex-M4** architecture of the Nucleo-F401RE.
+Our build system is designed to be **cross-platform**. We use `mbed-tools` to compile high-level C++ code into a machine-readable `.bin` (binary) file specifically optimized for the **ARM Cortex-M4** architecture of the **Nucleo-F401RE**.
 
 ---
 
 ## 🛠️ Step 1: Building the Project
-Based on the MBED CLI 2 documentation, we use the `mbed-tools` command to manage the build lifecycle.
+Based on the **MBED CLI 2** documentation, the `mbed-tools` command manages the build lifecycle. This ensures all dependencies are linked and the code is optimized for the microcontroller.
 
 ### Build Command
 Run the following in your terminal to compile the code:
