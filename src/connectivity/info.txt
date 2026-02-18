@@ -1,0 +1,1 @@
+this branch will contain the communication protocols to be used in the bosch future mobility challenge for information exchange via TCP/UDP protocols
